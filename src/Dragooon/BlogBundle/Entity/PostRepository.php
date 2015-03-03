@@ -65,5 +65,8 @@ class PostRepository extends EntityRepository
         $post->setTitle($title);
         $post->setContent($content);
 
+        $em = $this->getEntityManager();
+        $em->persist($post);
+        $em->flush();
     }
 }
