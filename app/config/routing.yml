@@ -1,0 +1,3 @@
+dragooon_blog:
+    resource: "@DragooonBlogBundle/Resources/config/routing.yml"
+    prefix:   /
