@@ -1,0 +1,25 @@
+{
+  "name":        "Dragooon/BlogBundle",
+  "type":        "symfony-bundle",
+  "description": "A very simply blog bundle based upon Symfony",
+  "keywords":    ["symfony", "bundle"],
+  "homepage":    "http://github.com/Dragooon/BlogBundle",
+  "license":     "MIT",
+  "authors": [
+    {
+      "name": "Shitiz Garg",
+      "homepage": "http://github.com/Dragooon"
+    }
+  ],
+  "require": {
+    "php":                      ">=5.3.2",
+    "symfony/framework-bundle": ">=2.7.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": {
+      "Dragooon\\BlogBundle": ""
+    }
+  },
+  "target-dir": "Dragooon/BlogBundle"
+}

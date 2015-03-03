@@ -1,0 +1,3 @@
+dragooon_blog_homepage:
+    path:     /
+    defaults: { _controller: DragooonBlogBundle:Index:index }
