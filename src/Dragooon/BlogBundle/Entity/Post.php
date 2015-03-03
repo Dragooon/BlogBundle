@@ -25,13 +25,11 @@ class Post
     protected $id;
 
     /**
-     * @ORM\Column(type="integer")
      * @ORM\ManyToOne(targetEntity="Author", inversedBy="posts")
      */
     protected $author;
 
     /**
-     * @ORM\Column(type="integer")
      * @ORM\ManyToOne(targetEntity="Category", inversedBy="posts")
      */
     protected $category;

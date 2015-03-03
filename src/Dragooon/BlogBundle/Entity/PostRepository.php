@@ -23,7 +23,7 @@ class PostRepository extends EntityRepository
     {
         $query = $this->getEntityManager()->createQueryBuilder();
         $query
-            ->select('Post', 'Author')
+            ->select('Post')
             ->from('Dragooon\BlogBundle\Entity\Post', 'Post')
             ->innerJoin('Dragooon\BlogBundle\Entity\Author', 'Author')
             ->where('1=1')
